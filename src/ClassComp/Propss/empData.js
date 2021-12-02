@@ -1,0 +1,38 @@
+export const empData=[
+    {
+img:"logo192.png",
+name:"React",
+age:"42",
+contact:"9874565213",
+add:"AWB",
+Company:"xyz"},
+    {
+img:"logo192.png",
+name:"React",
+age:"42",
+contact:"9874565213",
+add:"AWB",
+Company:"xyz"},
+    {
+img:"logo192.png",
+name:"React",
+age:"42",
+contact:"9874565213",
+add:"AWB",
+Company:"xyz"},
+    {
+img:"logo192.png",
+name:"React",
+age:"42",
+contact:"9874565213",
+add:"AWB",
+Company:"xyz"},
+    {
+img:"logo192.png",
+name:"React",
+age:"42",
+contact:"9874565213",
+add:"AWB",
+Company:"xyz"},
+
+]
