@@ -5,7 +5,8 @@ const Mappingpra = () => {
     return (
         <div>
             <h2 style={{textAlign:"center"}}>This is Parent Component</h2>
-            <div style={{display:"flex" , flexWrap:"wrap", margin:"10px"}}> {
+            <div style={{display:"flex" , flexWrap:"wrap", margin:"10px"}}> 
+            {
                 empData.map((data) =>{
                     return(
                     <div>
