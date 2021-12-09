@@ -1,8 +1,8 @@
 import "./App.css"
 import React from "react";
 // import Calulater from "./ClassComp/Excersice/Calulater";
-import { ClasslifeCount } from "./ClassComp/Classess/ClasslifeCount";
-// import Apifetching from "./ClassComp/Excersice/Apifetching";
+// import { ClasslifeCount } from "./ClassComp/Classess/ClasslifeCount";
+import Apifetching from "./ClassComp/Excersice/Apifetching";
 // import Datafetching from "./ClassComp/Excersice/Datafetching";
 
 
@@ -59,9 +59,9 @@ function App() {
         {/* <APICall/> */}
         {/* <Apipr/> */}
       {/* <Datafetching/> */}
-      {/* <Apifetching/> */}
+      <Apifetching/>
       {/* <Calulater/> */}
-      <ClasslifeCount/>
+      {/* <ClasslifeCount/> */}
     </div>
   );
 }

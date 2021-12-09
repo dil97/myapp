@@ -3,15 +3,16 @@ import axios from "axios";
 
 const Apifetching =()=>{
     const[albums, setAlbums]=useState([])
-    useEffect(()=>{
-        axios.get("https://jsonplaceholder.typicode.com/albums")
-        .then((res)=>{console.log(res.data)
-        setAlbums(res.data)})
-        .catch((error)=>console.log(error))
-        
-       
-    },[])
 
+   
+    const callMe = async ()=> {
+        const result = await axios.get("https://fakestoreapi.com/products")
+          setAlbums(result.data);
+        };
+        useEffect(()=>{
+          callMe();
+        }
+      ,[])
 
     return(
         <div>
