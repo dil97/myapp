@@ -1,9 +1,12 @@
 import "./App.css"
 import React from "react";
-// import Calulater from "./ClassComp/Excersice/Calulater";
-// import { ClasslifeCount } from "./ClassComp/Classess/ClasslifeCount";
-import Apifetching from "./ClassComp/Excersice/Apifetching";
-// import Datafetching from "./ClassComp/Excersice/Datafetching";
+import Routingkr from "./ClassComp/Excersice/Routing/Routingkr";
+// import Routing from "./ClassComp/Classess/Routing";
+// import { BrowserRouter,Routes,Route } from "react-router-dom";
+// // import Calulater from "./ClassComp/Excersice/Calulater";
+// // import { ClasslifeCount } from "./ClassComp/Classess/ClasslifeCount";
+// import Apifetching from "./ClassComp/Excersice/Apifetching";
+// // import Datafetching from "./ClassComp/Excersice/Datafetching";
 
 
 
@@ -59,9 +62,11 @@ function App() {
         {/* <APICall/> */}
         {/* <Apipr/> */}
       {/* <Datafetching/> */}
-      <Apifetching/>
+      {/* <Apifetching/> */}
       {/* <Calulater/> */}
       {/* <ClasslifeCount/> */}
+      {/* <Routing/> */}
+      <Routingkr/>
     </div>
   );
 }

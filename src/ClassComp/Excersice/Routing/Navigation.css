@@ -1,0 +1,11 @@
+.nav a {
+    width: 100%;    
+    background-color: orange;
+    text-decoration: none;
+    height:200px;
+
+}
+.Nav {
+    display: flex;
+}
+
