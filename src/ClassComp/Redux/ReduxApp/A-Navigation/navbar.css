@@ -1,0 +1,7 @@
+div {
+    background: sandybrown;   
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}

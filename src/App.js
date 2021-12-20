@@ -1,16 +1,20 @@
 import "./App.css"
 import React from "react";
-import Routingkr from "./ClassComp/Excersice/Routing/Routingkr";
+import Landing from "./ClassComp/Landing";
+// import ComplicatedCounter from "./ClassComp/Redux/ComplicatedCounter";
+// import FocusRef from "./ClassComp/useState/UseRef/FocusRef";
+// import Classtimer from "./ClassComp/useState/UseRef/Classtimer";
+// import FunctionalCompotimer from "./ClassComp/useState/UseRef/FunctionalCompotimer";
+// import Practice from "./ClassComp/useState/UseRef/Practice";
+// import {Cards}  from "./ClassComp/Excersice/Cards";
+// import CounterReducer from "./ClassComp/Redux/CounterReducer";
+// import Routingkr from "./ClassComp/Excersice/Routing/Routingkr";
 // import Routing from "./ClassComp/Classess/Routing";
 // import { BrowserRouter,Routes,Route } from "react-router-dom";
 // // import Calulater from "./ClassComp/Excersice/Calulater";
 // // import { ClasslifeCount } from "./ClassComp/Classess/ClasslifeCount";
 // import Apifetching from "./ClassComp/Excersice/Apifetching";
 // // import Datafetching from "./ClassComp/Excersice/Datafetching";
-
-
-
-
 
 // import Prodmap from "./ClassComp/Excersice/Prodmap";
 // import API from "./ClassComp/component/API";
@@ -40,7 +44,41 @@ function App() {
     // const usercity="Nanded"
   return (
     <div className="App">
+
+      <Landing/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       
+      {/* <Cards/> */}
       {/* <Prop name={userName} id={userId} mob={userMobile} 
       <Poperty  city ={usercity}/> */}
         {/* <Parent_pro/> */}
@@ -66,7 +104,15 @@ function App() {
       {/* <Calulater/> */}
       {/* <ClasslifeCount/> */}
       {/* <Routing/> */}
-      <Routingkr/>
+      {/* <Routingkr/> */}
+      {/* <CounterReducer/> */}
+      {/* <ComplicatedCounter/> */}
+      {/* <Classtimer/>
+      <FunctionalCompotimer/>
+      <FocusRef/>
+      <Practice/> */}
+
+    
     </div>
   );
 }

@@ -1,0 +1,27 @@
+.card-parent{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+}
+
+.card{
+    background: chocolate;
+    box-shadow: blue 3px 3px 5px,orange -3px -3px 5px;
+    margin: 10px;
+    height: 450px;
+    width: 350px;
+    transition:0.5s
+
+}
+.image{
+    margin-top: 25px;
+
+}
+.card:hover{
+    box-shadow: none;
+}
+.image:hover{
+    box-shadow: 5px 5px 9px red, -5px -5px 9px blue;
+}
