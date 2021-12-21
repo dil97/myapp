@@ -1,10 +1,10 @@
 export const groupReducer = (                                // reduce ke method se hi state ko manage kise krana hi ?state objevt manage
-  state = { product: [], cart: [], selectedprod: [] },                        ///store se deata store krne ke lya group-reducer selected-product == action i deta viewDetails obect ko lake shote me save kiy
+  state = { product: [], cart: [], selectedprod: [] },      ///store se data store krne ke lya group-reducer selected-product == action i deta viewDetails obect ko lake shote me save kiy
   action         
 ) => {
   if (action.type === "Add-Product") {
     return { ...state, product: [...action.data, ...state.product] };
-  } //existing new product +_ previous prodct save rah ne ke liaya ...  ///porduct me home page ke produt
+  } //existing new product + previous prodct save rah ne ke liaya ...  ///porduct me home page ke produt
 
   if (action.type === "selected-Product") {
     return { ...state, selectedprod: [action.data] }; //action.data e dispatch se 

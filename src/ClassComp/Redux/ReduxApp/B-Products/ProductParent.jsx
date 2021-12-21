@@ -8,7 +8,7 @@ const ProductParent = ({ search }) => {
   const dispatch = useDispatch();
   const [product, setProducts] = useState([]); // object array se replace hoga why usestate? to be Serach
   const getApiProduct = async () => {
-    const allProducts = await axios.get("https://fakestoreapi.com/products");
+    const allProducts = await axios.get("https://jsonplaceholder.typicode.com/photos");
     setProducts(allProducts.data);
     dispatch({ type: "Add-Product", data: allProducts.data });
   };
