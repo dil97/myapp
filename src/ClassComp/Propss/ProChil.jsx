@@ -5,8 +5,8 @@ export const ProChil =(props) => {
     return(
 
         <div>
-            <h1>hello ! iam  the Child Component {props.h} </h1>
-            <h3>prop receiverd from the parent:{indi}</h3>
+            <h1>hello ! iam  the Child Component ky laya {Send} </h1>
+            <h3>prop receiverd from the parent:{Email}</h3>
           
 
 

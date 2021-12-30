@@ -20,6 +20,7 @@ const APICall = () => {
             {
                 albums.map((kyanam)=>{
                     return(
+                        
                         <div style={{ width:"200px" ,
                         background:"orange",textAlign:"center",textShadow:"2px 5px 6px-8px pink",margin:"5px", border:"10px blue",borderRadius:"50px"}}>
                             <h4>{kyanam.title}</h4>

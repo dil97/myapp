@@ -1,6 +1,7 @@
 import "./App.css"
 import React from "react";
-import Landing from "./ClassComp/Landing";
+// import Landing from "./ClassComp/Landing";
+import Routing from "./ClassComp/FutureBridge/Routing";
 // import ComplicatedCounter from "./ClassComp/Redux/ComplicatedCounter";
 // import FocusRef from "./ClassComp/useState/UseRef/FocusRef";
 // import Classtimer from "./ClassComp/useState/UseRef/Classtimer";
@@ -18,16 +19,16 @@ import Landing from "./ClassComp/Landing";
 
 // import Prodmap from "./ClassComp/Excersice/Prodmap";
 // import API from "./ClassComp/component/API";
-// import APICall from "./ClassComp/component/funcation/APICall";
+import APICall from "./ClassComp/component/funcation/APICall";
 // import Apipr from "./ClassComp/Excersice/Apipr";
 // import API from "./ClassComp/component/API";
-// import ConditionalRender from "./ClassComp/Propss/ConditionalRender/ConditionalRender";
+import ConditionalRender from "./ClassComp/Propss/ConditionalRender/ConditionalRender";
 // import { Cars } from "./ClassComp/component/comp2/Cars";
 // import LifeCycleMethods from "./ClassComp/LifeCycleMethods";
 // import Poperty from "./ClassComp/component/comp2/Poperty";
 // import {Prop} from "./ClassComp/component/Prop"
 // import FilteredEmp from "./ClassComp/component/comp2/FilteredEmp";
-// import Counter from "./ClassComp/component/Counter/Counter";
+import Counter from "./ClassComp/component/Counter/Counter";
 // import Inputv2 from "./ClassComp/Inputv2";
 // import StatewithMap from "./ClassComp/useState/StatewithMap";
 // import { carrs } from "./ClassComp/component/comp2/Carrs";
@@ -36,6 +37,7 @@ import Landing from "./ClassComp/Landing";
 // import Mappingpra from "./ClassComp/component/Mappingpra";
 // import MappingParent from "./ClassComp/component/funcation/MappingParent";
 // import { Parent_pro } from "./ClassComp/Propss/Parent_pro";
+// import {Counter} from "../src/Counter"
 
 function App() {
     // const userName = "JOHN"
@@ -45,37 +47,7 @@ function App() {
   return (
     <div className="App">
 
-      <Landing/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      {/* <Landing/> */}
 
       
       {/* <Cards/> */}
@@ -83,12 +55,12 @@ function App() {
       <Poperty  city ={usercity}/> */}
         {/* <Parent_pro/> */}
          {/* <Pclass/> */}
-        {/* <Practi/> */} 
+        {/* <Practi/>  */}
         {/* <MappingParent/> */}
         {/* <Mappingpra/> */}
         {/* <FilteredEmp/> */}
-       {/* <Counter/>  */}
-       {/* <ConditionalRender/>  */}
+       <Counter/> 
+       <ConditionalRender/> 
         {/* <Cars/> */}
         {/* <carrs/> */}
         {/* <LifeCycleMethods/> */}
@@ -97,7 +69,7 @@ function App() {
         {/* <API/> */}
         {/* <Prodmap/> */}
         {/* <API/> */}
-        {/* <APICall/> */}
+        <APICall/>
         {/* <Apipr/> */}
       {/* <Datafetching/> */}
       {/* <Apifetching/> */}
@@ -111,6 +83,8 @@ function App() {
       <FunctionalCompotimer/>
       <FocusRef/>
       <Practice/> */}
+      {/* <Routing/> */}
+      <Counter/>
 
     
     </div>

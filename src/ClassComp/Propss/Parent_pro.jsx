@@ -6,10 +6,10 @@ export  const Parent_pro =() => {
     return(
 
         <div> <h2>Hello ! I'm Parent Component </h2>
-        <ProChil  indi ="something" h="gklhg"   />
+        <ProChil Send="REcived Message"  Email="jEson@gmail.com"   />
 
         </div>
-    )
+    ) 
 };
  
 

@@ -17,7 +17,6 @@ const Landing = () => {
                 <Route path="/" element={<ProductParent search={search}/>}/>
                 <Route path="/cart" element={<ProdcutCart/>}/>
                 <Route path="/details" element={<ProdctDetails/>}/>
-       
             </Routes>
 
             </BrowserRouter>

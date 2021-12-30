@@ -9,11 +9,7 @@ export class Practi extends Component {
 
     }
     handleeventmove(event) {
-        this.state({
-            x = eventclientX,
-        
-            y =eventclienty
-        })
+        this.state({ x: eventclientx, y:eventclienty })
     }
 
     render () {

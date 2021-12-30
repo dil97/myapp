@@ -1,25 +1,30 @@
 import React,{useState , useEffect} from "react";
 import axios from "axios";
-const Apifetching =()=>{
-    const[albums, setAlbums]=useState([])
+
+const MoviesApi =()=>{
+    const[movies, setMovies]=useState([])
+
+   
     const callMe = async ()=> {
-        const result = await axios.get("https://fakestoreapi.com/products")
-          setAlbums(result.data);
+        const result = await axios.get("")
+          setMovies(result.data);
         };
         useEffect(()=>{
           callMe();
         }
       ,[])
+
     return(
         <div>
-            <h1>this is DAta Fetching</h1>
+            <h1>Movies Show</h1>
+
             {
-                albums.map((dil)=>{
+                movies.map((dil)=>{
                     return(
                         <div>
                             <h3>{dil.title}</h3>
-                            <h3>{dil.id}</h3>
-                            <h3>{dil.userId}</h3>
+                            <h3>{dil.realsedDate}</h3>
+                            <h3>{dil.rating}</h3>
                         </div>
                     )
                 })
@@ -27,4 +32,4 @@ const Apifetching =()=>{
         </div>
     )
 }; 
-export default Apifetching;
+export default MoviesApi;
