@@ -2,6 +2,7 @@ import "./App.css"
 import React from "react";
 // import Landing from "./ClassComp/Landing";
 import Routing from "./ClassComp/FutureBridge/Routing";
+import UseEffect from "./ClassComp/UseEffect";
 // import ComplicatedCounter from "./ClassComp/Redux/ComplicatedCounter";
 // import FocusRef from "./ClassComp/useState/UseRef/FocusRef";
 // import Classtimer from "./ClassComp/useState/UseRef/Classtimer";
@@ -17,19 +18,19 @@ import Routing from "./ClassComp/FutureBridge/Routing";
 // import Apifetching from "./ClassComp/Excersice/Apifetching";
 // // import Datafetching from "./ClassComp/Excersice/Datafetching";
 
-// import Prodmap from "./ClassComp/Excersice/Prodmap";
-// import API from "./ClassComp/component/API";
+// // import Prodmap from "./ClassComp/Excersice/Prodmap";
+// // import API from "./ClassComp/component/API";
 import APICall from "./ClassComp/component/funcation/APICall";
-// import Apipr from "./ClassComp/Excersice/Apipr";
-// import API from "./ClassComp/component/API";
-import ConditionalRender from "./ClassComp/Propss/ConditionalRender/ConditionalRender";
-// import { Cars } from "./ClassComp/component/comp2/Cars";
-// import LifeCycleMethods from "./ClassComp/LifeCycleMethods";
-// import Poperty from "./ClassComp/component/comp2/Poperty";
-// import {Prop} from "./ClassComp/component/Prop"
-// import FilteredEmp from "./ClassComp/component/comp2/FilteredEmp";
-import Counter from "./ClassComp/component/Counter/Counter";
-// import Inputv2 from "./ClassComp/Inputv2";
+// // import Apipr from "./ClassComp/Excersice/Apipr";
+// // import API from "./ClassComp/component/API";
+// import ConditionalRender from "./ClassComp/Propss/ConditionalRender/ConditionalRender";
+// // import { Cars } from "./ClassComp/component/comp2/Cars";
+// // import LifeCycleMethods from "./ClassComp/LifeCycleMethods";
+// // import Poperty from "./ClassComp/component/comp2/Poperty";
+// // import {Prop} from "./ClassComp/component/Prop"
+// // import FilteredEmp from "./ClassComp/component/comp2/FilteredEmp";
+// import Counter from "./ClassComp/component/Counter/Counter";
+// // import Inputv2 from "./ClassComp/Inputv2";
 // import StatewithMap from "./ClassComp/useState/StatewithMap";
 // import { carrs } from "./ClassComp/component/comp2/Carrs";
 // import { Pclass } from "./ClassComp/component/funcation/Pclass";
@@ -59,8 +60,8 @@ function App() {
         {/* <MappingParent/> */}
         {/* <Mappingpra/> */}
         {/* <FilteredEmp/> */}
-       <Counter/> 
-       <ConditionalRender/> 
+       {/* <Counter/>  */}
+       {/* <ConditionalRender/>  */}
         {/* <Cars/> */}
         {/* <carrs/> */}
         {/* <LifeCycleMethods/> */}
@@ -84,8 +85,8 @@ function App() {
       <FocusRef/>
       <Practice/> */}
       {/* <Routing/> */}
-      <Counter/>
-
+      {/* <Counter/>
+      <UseEffect/> */}
     
     </div>
   );

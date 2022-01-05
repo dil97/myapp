@@ -4,7 +4,7 @@ import axios from 'axios';
 const APICall = () => {
     const [albums , setAlbums] =useState([]);
     useEffect(()=>{
-        axios.get("https://jsonplaceholder.typicode.com/albums")
+        axios.get("https://randomuser.me/api/?results=500")
         .then((res)=>{console.log(res.data) 
             setAlbums(res.data)})
         
